@@ -37,12 +37,12 @@ for ( let i = 1; i <= 100; i++ ) {
 
 for ( let i = 1; i <= 100; i++ ) {
 
-    // se l'indice è divisibile per 3 e se l'indice non è divisibile per 5
+    // se l'indice è divisibile per 3 e se l'indice è diverso da divisibile per 5
     if (i % 3 == 0 && i % 5 != 0 ) {
 
         console.log('Fizz')
 
-    // se l'indice è divisibile per 5 e se l'indice non è divisibile per 3
+    // se l'indice è divisibile per 5 e se l'indice è diverso da divisibile per 3
     } else if (i % 5 == 0 && i % 3 != 0) {
 
         console.log('Buzz')
